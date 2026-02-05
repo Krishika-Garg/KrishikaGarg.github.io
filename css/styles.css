@@ -4306,3 +4306,38 @@ img.u-pull-left {
         right : 6vw;
     }
 }
+
+/* ===============================
+   PROJECTS — MOBILE FIX
+   =============================== */
+@media (max-width: 768px) {
+
+  .projects,
+  .projects-list,
+  .projects-grid {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 2rem;
+  }
+
+  .project,
+  .project-item {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start;
+  }
+
+  .project img {
+    width: 100% !important;
+    height: auto !important;
+    object-fit: contain;
+    margin-bottom: 1rem;
+  }
+
+  .project-title,
+  .project h3 {
+    font-size: 1.4rem;
+    line-height: 1.3;
+  }
+
+}
